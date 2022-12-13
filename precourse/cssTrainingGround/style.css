@@ -1,0 +1,15 @@
+div  {
+    background-color: black;
+    color: whitesmoke;
+  }
+  .negative  {
+  background-color: greenyellow;
+  color: whitesmoke;
+  }
+  .positive  {
+  background-color: #ff7961;
+  color: whitesmoke;
+  }
+  .huge {
+  font-size: xx-large;
+  }
