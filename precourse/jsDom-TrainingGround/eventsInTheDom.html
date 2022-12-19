@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="functions.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script>
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     console.log("Document is loaded, y'all");
+        // });
+        // function aFunctionToRunLater() {
+        //     console.log("Document is loaded, y'all");
+        // };
+        // document.addEventListener('DOMContentLoaded', aFunctionToRunLater);
+    </script>
+</head>
+<body>
+    <main>
+        <h1 class="mainResult">1000</h1>
+        <h1 class="mainResult">-1000</h1>
+        <h1 class="mainResult">A name - not a number</h1>
+        <button onclick="myFunctions.invertColorsOfResults();">Invert colors</button>
+    </main>
+    <script>
+        myFunctions.resultAdder();
+    </script>
+</body>
+</html>

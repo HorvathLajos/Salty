@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="functions.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script>
+        function getUsers(main) {
+            fetch('https://randomuser.me/api/?gender=female&results=6')
+            .then(response => response.json())
+            .then(data => {main.appendChild(myFunctions.createUserList(data));});
+        }
+        document.addEventListener("DOMContentLoaded", () => {
+            getUsers(document.querySelector("main"));
+        });
+    </script>
+</head>
+<body>
+    <input type="text" name="searchText" id="searchField" style="display: inline-block;max-width: 100px;">
+    <button id="searchBtn"><img src="346431.png" style="max-height: 20px;display: inline-block;"></button>
+    <main name="OriginalMain">
+    
+    </main>
+</body>
+</html>

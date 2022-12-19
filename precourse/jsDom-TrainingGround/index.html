@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js trainingground</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="functions.js"></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1 class="mainResult">1000</h1>
+        <h1 class="mainResult">-1000</h1>
+        <h1 class="mainResult">A name - not a number</h1>
+        <div name="content" class="big bold bright">some stuff1</div>
+        <div class="big bold" id="companyName">some stuff2</div>
+        <div name="content" class="big">some stuff3</div>
+        <div name="toRemove">some stuff4</div>
+    </main>
+    <button onclick="removeDivByName(prompt('name?'))">Click me to remove</button> <!-- in: toRemove -->
+    <script>
+        myFunctions.resultAdder();
+    </script>
+</body>
+<script>
+    // const companyName = myFunctions.getCompanyName();
+    // document.getElementsByTagName("div")[1].innerHTML = companyName;
+    // const companyName = myFunctions.getCompanyName();
+    // document.getElementById('companyName').innerHTML = companyName;
+    // const boldNodes = document.getElementsByClassName("bold");
+
+    // for (let i = 0; i < boldNodes.length; i++) {
+    // boldNodes[i].innerHTML += " ... and bold";
+    // }
+    // let conti = document.querySelectorAll("div[name=content]");
+    // console.log(conti);
+    // myFunctions.addListInMainByMarcus(prompt("Hányszor?"));
+</script>
+</html>
