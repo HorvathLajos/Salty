@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q7HPR3ZIyjuBlRAfqo2ICe1Ka5vaGhbz4kG7s1cCMHbVZv9FTff9O27o0csujph34EepvvzpN5l9ce17CT684A==",
+  "dgSpecHash": "AgalYMLEODldc77tD4TuLlLjAFkScESDMQ6mRGkxeN8u1+lBrR6qRl1UIhTt1w8KTUaGmm7mMdSsE8YMs2l01g==",
   "success": true,
-  "projectFilePath": "D:\\salt\\precourse\\webapiDotNetTrainingGround\\webapiDotNetTrainingGround.csproj",
+  "projectFilePath": "d:\\salt\\precourse\\webapiDotNetTrainingGround\\webapiDotNetTrainingGround.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cat\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Cat\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
