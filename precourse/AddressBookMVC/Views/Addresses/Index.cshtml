@@ -1,0 +1,27 @@
+@model List<AddressViewModel>
+
+<h1>My address book</h1>
+
+<table class="addressTable">
+    <thead>
+        <th>Street name</th>
+        <th>House number</th>
+        <th></th>
+    </thead>
+    <tbody>
+    @foreach (AddressViewModel address in Model)
+    {
+        <tr>
+            <td>@address.streetName</td>
+            <td>@address.houseNumber</td>
+            <td><button class="detailsButton" onclick="detailsButtonClicked(@address.id)">Details of the address</button></td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<button class="AddBtn"><a
+  asp-controller="Addresses"
+  asp-action="Create">
+  Create new address
+</a></button>

@@ -1,0 +1,19 @@
+@model AddressViewModel
+
+<h1>Details of @Model.houseNumber @Model.streetName</h1>
+
+<table class="addressTable">
+    <thead>
+        <th>Id</th>
+        <th>Postcode</th>
+        <th>Street name</th>
+        <th>House number</th>
+        <th></th>
+    </thead>
+    <tbody>
+        <td>@Model.id</td>
+        <td>@Model.postCode</td>
+        <td>@Model.streetName</td>
+        <td>@Model.houseNumber</td>
+    </tbody>
+</table>

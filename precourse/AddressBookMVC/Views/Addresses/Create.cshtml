@@ -1,0 +1,14 @@
+@model AddressViewModel
+
+<div class="createContainer">
+    <h1>Create new address</h1>
+
+    <form asp-controller="Addresses" asp-action="Create" method="post" class="addressForm">
+
+    <span class="createInputDisplay">@Html.DisplayNameFor(m => m.postCode): <input asp-for="postCode" /></span> <br />
+    <span class="createInputDisplay">@Html.DisplayNameFor(m => m.streetName): <input asp-for="streetName" /></span><br />
+    <span class="createInputDisplay">@Html.DisplayNameFor(m => m.houseNumber): <input asp-for="houseNumber" /></span> <br />
+
+    <button type="submit" class="AddBtn" style="margin-left: 100px; margin-bottom: 20px;">Create new address</button>
+    </form>
+</div>
